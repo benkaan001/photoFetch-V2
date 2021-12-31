@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS photoFetch_db;
+
+CREATE DATABASE photoFetch_db;
