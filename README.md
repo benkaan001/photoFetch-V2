@@ -28,7 +28,7 @@
 
 ## Demo
 
-![]()
+![gif](https://github.com/benkaan001/photoFetch-V2/blob/public/assets/photoFetch-V2.gif)
 
 ## Installation
 
@@ -63,7 +63,7 @@ To disconnect the server, press `command+C`
 ## Tests
 
 Check out the deployed application on
-[heroku](https:///)
+[heroku](https://afternoon-coast-77459.herokuapp.com)
 
 ## Contributions
 
