@@ -26,9 +26,9 @@
 
 ## Description
 
-## Demo
+## Preview
 
-![gif](https://github.com/benkaan001/photoFetch-V2/blob/public/assets/photoFetch-V2.gif)
+![gif](https://github.com/benkaan001/photoFetch-V2/blob/public/assets/photoFetch.gif)
 
 ## Installation
 
