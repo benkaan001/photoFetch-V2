@@ -1,18 +1,9 @@
-* {
-  margin: 0;
+body {
+  /* margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: border-box; */
   font-family: 'Mukta', sans-serif;
 }
-body {
-  overflow-x: hidden;
-  font-family: 'Montserrat', sans-serif;
-}
-
-/* add nav bar */
-/* .navbar{
-  background: rgba(0, 0, 0, 0.3);
-} */
 
 .video-background {
   position: relative;
@@ -84,10 +75,3 @@ video {
   background-size: cover;
   transition: 1s opacity;
 }
-
-/* add breakpoints for
-
-Medium (md) devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-*/

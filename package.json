@@ -1,7 +1,7 @@
 {
-  "name": "Project2_Purple_Minutes_Style",
+  "name": "photo_fetch_v2",
   "version": "1.0.0",
-  "description": "",
+  "description": "<h1 align =\"center\"> Fetch API || MySQL || Express </h1>",
   "main": "server.js",
   "dependencies": {
     "bcrypt": "^5.0.1",
@@ -15,7 +15,6 @@
     "nodemon": "^2.0.15",
     "sequelize": "^6.9.0"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
@@ -23,13 +22,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/izztnkr/Project2_Purple_Minutes_Style.git"
+    "url": "git+https://github.com/benkaan001/photoFetch-V2.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/izztnkr/Project2_Purple_Minutes_Style/issues"
+    "url": "https://github.com/benkaan001/photoFetch-V2/issues"
   },
-  "homepage": "https://github.com/izztnkr/Project2_Purple_Minutes_Style#readme"
+  "homepage": "https://github.com/benkaan001/photoFetch-V2#readme",
+  "devDependencies": {}
 }

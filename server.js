@@ -1,4 +1,4 @@
-// run   npx nodemon server.js    if nodemon server.js doesn't work
+require('dotenv').config();
 
 // add path to make css availabe to the client
 const path = require('path');
@@ -6,6 +6,7 @@ const express = require('express');
 const routes = require('./controllers');
 
 const sequelize = require('./config/connection');
+
 const app = express();
 const PORT = process.env.PORT || 3001;
 
@@ -18,7 +19,7 @@ const session = require('express-session');
 //connect the session to Sequelize database
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 const sess = {
-  secret: 'it is not a secret',
+  secret: process.env.SECRET,
   cookie: {
     maxAge: 1000 * 60 * 60 * 24, //equals one day
   },
