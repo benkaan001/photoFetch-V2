@@ -1,6 +1,6 @@
-<h1 align ="center"> Fetch API || MySQL || Express </h1>
+<h1 align ="center">  MySQL || Express || Fetch API </h1>
 
-<h2 align="center">Photo Fetch </h2>
+<h2 align="center">Photo Fetch 2 </h2>
 <p align="center">
     <img src="https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=Sequelize&logoColor=white"/>  &nbsp;&nbsp;
     <img src="https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white"> &nbsp;&nbsp;
@@ -26,6 +26,10 @@
 
 ## Description
 
+The purpose of this project was to build a backend that provided user authentication to an existing `fetch API` application that I had build previously - you can find the application [here](https://benkaan001.github.io/photo-fetch/).
+
+I utilized the `express-session`-based user authentication that I had built for a group project.
+
 ## Preview
 
 ![gif](https://github.com/benkaan001/photoFetch-V2/blob/main/public/assets/photoFetch4.gif)
@@ -34,7 +38,13 @@
 
 In the root directory of your project, create a `.env` file with the following credentials:
 
-`DB_NAME='photoFetch_db' DB_USER='YOUR_MYSQL_USERNAME' DB_PW='YOUR_MYSQL_PASSWORD' SECRET=YOUR_SESSION_SECRET`
+`DB_NAME='photoFetch_db'`
+
+` DB_USER='YOUR_MYSQL_USERNAME'`
+
+` DB_PW='YOUR_MYSQL_PASSWORD'`
+
+` SECRET=YOUR_SESSION_SECRET`
 
 `npm install` to install
 
